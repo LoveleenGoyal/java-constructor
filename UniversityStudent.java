@@ -38,7 +38,9 @@ class PostgraduateStudent extends Students {
     // Display postgraduate student details
     public void displayPostgraduateStudent() {
         System.out.println("Postgraduate Student Details:");
-        displayStudent();
+        System.out.println("Roll Number: " + rollNumber);
+        System.out.println("Name: " + name);
+        System.out.println("CGPA: " + getCGPA());
     }
 }
 
